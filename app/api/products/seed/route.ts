@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import data from '@/lib/data'
 import dbConnect from '@/lib/dbConnect'
 import ProductModel from '@/lib/models/ProductModel'
