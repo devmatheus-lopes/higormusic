@@ -1,5 +1,7 @@
+export const dynamic = "force-dynamic";
 import dbConnect from '@/lib/dbConnect'
 import ProductModel from '@/lib/models/ProductModel'
+
 
 export const GET = async (req: any) => {
   await dbConnect()
