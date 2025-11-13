@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <div className="navbar justify-between bg-base-300">
+        <div className="navbar justify-between bg-base-300 h-[400px] items-start pt-4">
           <div>
             <label htmlFor="my-drawer" className="btn btn-square btn-ghost">
               <svg

@@ -29,7 +29,7 @@ export const POST = auth(async (req: any) => {
   const product = new ProductModel({
     name: 'nome exemplo',
     slug: 'nome-exemplo-' + Math.random(),
-    image: '/images/camiseta.jpg',
+    image: '/images/guitarra.jpg',
     price: 0,
     category: 'categoria exemplo',
     brand: 'marca exemplo',
